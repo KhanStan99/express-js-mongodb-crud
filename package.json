@@ -1,9 +1,11 @@
 {
-  "name": "node-express-mongodb",
+  "name": "quran-tracker",
   "version": "1.0.0",
-  "description": "Node.js Restful CRUD API with Node.js, Express and MongoDB",
+  "description": "Quran Tracker Backend",
+  "author": "soubankhan3@gmail.com",
   "main": "server.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -13,11 +15,15 @@
     "api",
     "mongodb"
   ],
-  "author": "bezkoder",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.1",
-    "mongoose": "^6.4.2"
+    "mongoose": "^6.4.2",
+    "swagger-jsdoc": "^6.2.1",
+    "swagger-ui-express": "^4.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
   }
 }
