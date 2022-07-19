@@ -9,5 +9,5 @@ npm install
 
 ### Run
 ```
-node run start
+npm run start
 ```
