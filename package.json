@@ -1,7 +1,7 @@
 {
-  "name": "quran-tracker",
+  "name": "nodejs-mongodb-starter",
   "version": "1.0.0",
-  "description": "Quran Tracker Backend",
+  "description": "NodeJS MongoDB Starter",
   "author": "soubankhan3@gmail.com",
   "main": "server.js",
   "scripts": {
@@ -17,11 +17,11 @@
   ],
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
     "express": "^4.18.1",
-    "mongoose": "^6.4.2",
-    "swagger-jsdoc": "^6.2.1",
-    "swagger-ui-express": "^4.5.0"
+    "lodash": "^4.17.21",
+    "mongoose": "^6.4.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
